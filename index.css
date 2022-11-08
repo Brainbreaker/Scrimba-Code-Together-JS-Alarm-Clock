@@ -1,0 +1,48 @@
+body {
+    background: #7fc8f8;
+    color: white;
+    font-family: monospace;
+}
+
+.container {
+    height: 100vh;
+     display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.container p {
+    font-size: 3em;
+    margin: 0.25em;
+}
+
+.current-time-display {
+    background: #1b263b;
+    padding: 0.25em 0.5em;
+    border-radius: 5px;
+}
+
+input, button {
+    font-family: inherit;
+    font-size: 2em;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    width: 90%;
+    margin: 1em;
+    background: #ffe45e;
+    text-transform: uppercase
+}
+
+button:hover {
+    background: #F8CE00;
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.96);
+}
